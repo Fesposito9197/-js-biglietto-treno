@@ -20,7 +20,7 @@ if(age < 18){
 } else {
      ticketPrice = ticket
 }
-console.log(ticketPrice)
+console.log(ticketPrice.toFixed(2))
 // stampo biglietto
 document.getElementById("kilometraggio").innerHTML= kilometres
-document.getElementById("price").innerHTML=ticketPrice
+document.getElementById("price").innerHTML=ticketPrice.toFixed(2)
